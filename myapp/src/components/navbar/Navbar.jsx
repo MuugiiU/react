@@ -3,7 +3,9 @@ const lists=['Portfolio','Blog','CV','Store','About Me','Contact'];
     return (
        <div>
         <ul>
+          <li>
           {lists.map((list)=>list) }
+          </li>
         </ul>
         </div>
     

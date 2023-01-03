@@ -1,10 +1,10 @@
-import logo from './logo.svg';
+
 import './App.css';
-import UserCard from './components/UserCard';
-import users from './data';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Content from './components/Content';
+
+
+import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
+import Content from './components/content/Content';
 
 function App() {
  

@@ -1,5 +1,6 @@
-import Navbar from './Navbar';
-import Text from './Text';
+
+import Navbar from '../navbar/Navbar';
+import Text from '../header/Header';
 
 const Header =()=>{
     return (
