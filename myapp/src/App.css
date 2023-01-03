@@ -1,0 +1,40 @@
+*{
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+ .row{
+  display: flex;
+  flex-direction: row;
+ }
+.card{
+  border: 5px solid goldenrod;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+  text-align: center;
+
+  margin-top: 20px;
+  
+
+  
+}
+h2{
+  text-align: center;
+  margin-top: 10px;
+}
+p{
+  text-align: center;
+  margin-top: 20px;
+}
+h3{
+  font-size: 1rem;
+  color: blue;
+  margin-top: 10px;
+}
+img {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
