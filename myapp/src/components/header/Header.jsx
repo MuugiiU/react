@@ -1,10 +1,9 @@
 
 import Navbar from '../navbar/Navbar';
-import Text from '../header/Header';
-
+import Text from '../text/Text';
 const Header =()=>{
     return (
-        <div>
+        <div className='header'>
             <Navbar/>
             <Text/>
     

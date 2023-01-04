@@ -1,11 +1,15 @@
+import Logo from '../logo/Logo';
 const lists=['Portfolio','Blog','CV','Store','About Me','Contact'];
  const Navbar=()=>{
     return (
-       <div>
+       <div className='navbar'>
+        <Logo/>
         <ul>
-          <li>
-          {lists.map((list)=>list) }
-          </li>
+         
+          {lists.map((list)=>
+           <li >{list}
+           </li>
+          ) }
         </ul>
         </div>
     
