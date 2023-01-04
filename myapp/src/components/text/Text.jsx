@@ -14,8 +14,8 @@ const text =()=>{
              if the user does not have a good experience at the end of the product,
              the design will be considered unsuccessful in my opinion.</p>
             <div className='btns'>
-             {designs.map((design)=>
-                <DesignBtn design={design}/>) }
+             {designs.map((design,index)=>
+                <DesignBtn key={index}design={design}/>) }
              </div>
           </div>
           <div className="col">

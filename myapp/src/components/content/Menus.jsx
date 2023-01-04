@@ -3,8 +3,8 @@ const lists=['All','UI Design','UX Design','Product Design','Articles','Tutorial
     return(
         <div className="menu">
             <ul>
-                {lists.map((list)=>
-                <li><a href="">{list} </a> </li>
+                {lists.map((list,index)=>
+                <li  key={index}><a href="">{list} </a> </li>
                 )}
             </ul>
         </div>

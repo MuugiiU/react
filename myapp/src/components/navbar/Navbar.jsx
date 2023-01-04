@@ -6,8 +6,8 @@ const lists=['Portfolio','Blog','CV','Store','About Me','Contact'];
         <Logo/>
         <ul>
          
-          {lists.map((list)=>
-           <li >{list}
+          {lists.map((list, index)=>
+           <li key={index}>{list}
            </li>
           ) }
         </ul>

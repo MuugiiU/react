@@ -1,7 +1,7 @@
 const Footer=()=>{
     return (
-        <div>
-           
+        <div className=" foot">
+           <img src="./img/footer.png" alt="" />
     
         </div>
     )
