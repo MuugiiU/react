@@ -1,9 +1,13 @@
 const Menus = () => {
   return (
-    <div>
+    <div className="head">
       <p>Need help? Call us(+98) 0234 456 789</p>
-      <img src="./img/our.png" alt="" />
-      <img src="./img/track.png" alt="" />
+      <div>
+        <i class="bi bi-geo-alt"></i>
+        <span> Our store</span>
+        <i class="bi bi-truck"></i>
+        <span>Track your order</span>
+      </div>
     </div>
   );
 };
