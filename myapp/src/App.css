@@ -1,45 +1,41 @@
-*{
+* {
   box-sizing: border-box;
-
 }
-.App{
+.App {
   max-width: 1280px;
   margin: auto;
 }
-ul{
+ul {
   padding: 20px;
   margin: 10p;
   gap: 30px;
   display: flex;
 }
-li{
+li {
   list-style: none;
- 
 }
 
-.img{
+.img {
   display: flex;
   margin: 10px;
   padding: 10px;
 }
-.navbar{
+.navbar {
   justify-content: space-between;
   display: flex;
 }
 
-.row{
+.row {
   display: flex;
- 
 }
-.col{
-margin-left: 20px; 
-margin-right: 20px;
+.col {
+  margin-left: 20px;
+  margin-right: 20px;
 }
-h2{
-  color: #D05270;
+h2 {
+  color: #d05270;
 }
-.designBtn{
- 
+.designBtn {
   display: flex;
   width: 200px;
   height: 60px;
@@ -47,56 +43,64 @@ h2{
   align-items: center;
   justify-content: center;
   gap: 20px;
-
 }
-.designBtn img{
+.designBtn img {
   width: 20px;
   height: 20px;
-
 }
-.btns{
+.btns {
   display: flex;
   gap: 18px;
- 
 }
-#TWITTER{
-  background-color: #47ACDF;
-  
-
+#TWITTER {
+  background-color: #47acdf;
 }
 
-#LINKEDIN{
-  background-color:  #1275B1;
+#LINKEDIN {
+  background-color: #1275b1;
 }
-#MEDIUM{
+#MEDIUM {
   background-color: black;
 }
-.menu{
+.menu {
   gap: 50px;
 }
-a{
+a {
   list-style: none;
   text-decoration: none;
- 
-  
 }
-a:hover{
- color: #D05270;;
+a:hover {
+  color: #d05270;
 }
-.blog{
+.blog {
   display: flex;
   flex-wrap: wrap;
   margin: 10px;
   padding: 10px;
   gap: 30px;
 }
-.card{
-  width: calc(100%/2 - 40px);
-  
-  
+.card {
+  width: calc(100% / 2 - 40px);
 }
-.foot{
+.foot {
   margin: 0;
   padding: 100px;
   text-align: center;
+}
+.gol {
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+#neg {
+  font-size: 30px;
+  color: #3a0ca3;
+}
+#hoyor {
+  font-size: 24px;
+  color: #3a0ca3;
+}
+#gurav {
+  font-size: 18px;
+  color: #3a0ca3;
 }

@@ -1,11 +1,14 @@
-import Header from '../../components/header/Header';
-import Footer from '../../components/footer/Footer';
-import Content from '../../components/content/Content';
-const Detail=()=>{
-    return<>
-    <Header/>
-    <Content/>
-    <Footer/>
+import Footer from "../../components/footer/Footer";
+
+import Navbar from "../../components/navbar/Navbar";
+import Center from "../../components/center/Center";
+const Detail = () => {
+  return (
+    <>
+      <Navbar />
+      <Center />
+      <Footer />
     </>
-}
+  );
+};
 export default Detail;
