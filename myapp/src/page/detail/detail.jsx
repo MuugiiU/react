@@ -1,7 +1,6 @@
-import Footer from "../../components/footer/Footer";
-
 import Navbar from "../../components/navbar/Navbar";
 import Center from "../../components/center/Center";
+import Footer from "../../components/footer/Footer";
 const Detail = () => {
   return (
     <>
