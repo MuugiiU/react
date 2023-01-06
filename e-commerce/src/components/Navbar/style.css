@@ -18,7 +18,6 @@ body {
 }
 .container {
   max-width: 1280px;
-  padding: 20px;
   text-align: center;
 }
 .see {
@@ -45,4 +44,27 @@ body {
 }
 .bi-cart3 {
   color: white;
+}
+.nav {
+  display: flex;
+  background: #f4f4f4;
+  justify-content: space-between;
+  height: 70px;
+  text-align: center;
+  padding: 10px;
+  margin: 0 13px 0 13px;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+}
+#neg {
+  background: #eda415;
+}
+.t {
+  color: #003f62;
+  text-align: center;
+  margin: 10px;
+  line-height: 24px;
 }

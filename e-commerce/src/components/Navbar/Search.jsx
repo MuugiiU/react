@@ -4,7 +4,7 @@ import Badge from "react-bootstrap/Badge";
 import Button from "react-bootstrap/Button";
 const Search = () => {
   return (
-    <div className="container-fluid">
+    <div className="container">
       <div className="see">
         <img src="./img/logo.png" alt="" />
 

@@ -1,18 +1,16 @@
-const Submenu = () => {
-  return (
-    <div>
-      <div class="dropdown">
-        <button
-          class="btn btn-warning dropdown-toggle"
-          type="button"
-          id="dropdownMenu2"
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
-        >
-          Browse categories
-        </button>
-      </div>
-    </div>
-  );
+import React from "react";
+import { NavLink, NavDropdown, NavItem } from "react-bootstrap";
+const Submenu = (props) => {
+  const menu =
+    props.children.length > 0 ? (
+      <NavDropdown title={props.title}>
+        {props.children.map((child) => {
+          return <NavDropdown.Item>{child.title}</NavDropdown.Item>;
+        })}
+      </NavDropdown>
+    ) : (
+      <NavLink>{props.title}</NavLink>
+    );
+  return <NavItem id={props.id}>{menu}</NavItem>;
 };
 export default Submenu;

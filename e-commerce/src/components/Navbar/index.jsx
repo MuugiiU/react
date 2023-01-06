@@ -1,5 +1,5 @@
 import Search from "./Search";
-// import Submenu from "./Submenu";
+import DropdownMenu from "./Dropdown";
 import Menus from "./Menus";
 import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -9,8 +9,8 @@ const Navbar = () => {
   return (
     <div>
       <Menus />
-      {/* <Submenu /> */}
       <Search />
+      <DropdownMenu />
     </div>
   );
 };

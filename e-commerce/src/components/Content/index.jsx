@@ -1,8 +1,9 @@
+import "./style.css";
+import Banner from "./Banner";
 const Content = () => {
   return (
     <div>
-      <img src="./img/our.png" alt="" />
-      <img src="./img/track.png" alt="" />
+      <Banner />
     </div>
   );
 };
