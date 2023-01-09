@@ -1,14 +1,11 @@
-import AliceCarousel from "react-alice-carousel";
+import Carousel from "react-bootstrap/Carousel";
+import Category from "../../data/Category";
+import Carouselpr from "../../data/Carousel";
 const Banner = () => {
   return (
-    <div>
-      {" "}
-      <AliceCarousel autoPlay autoPlayInterval="3000">
-        <img src="./img/camera.png" className="sliderimg" />
-        <img src="./img/pc.png" className="sliderimg" />
-        <img src="./img/speaker.png" className="sliderimg" />
-      </AliceCarousel>
-    </div>
+    <Carousel.Caption>
+      <Carouselpr />
+    </Carousel.Caption>
   );
 };
 export default Banner;

@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+}
+h1 {
+  color: #1b5a7d;
+  font-size: 43px;
+  line-height: 64px;
+  font-weight: 700;
+  margin-top: 67px;
+  margin-left: 174px;
+}
+.shar {
+  margin-top: 20px;
+  margin-left: 174px;
+  background: #eda415;
+  border-radius: 20px;
+  color: white;
+  border: 1px solid transparent;
+
+  width: 144px;
+  height: 61px;
+}
+.more {
+  box-shadow: 19px 4px 16px rgba(0, 0, 0, 0.09);
+  width: 144px;
+  height: 61px;
+  border-radius: 20px;
+  color: #316887;
+  background: white;
+  border: 1px solid #316887;
+  margin-left: 15px;
+  gap: 10px;
+}
+
+.only {
+  width: 120px;
+  height: 114.61px;
+  left: 900px;
+  top: 200px;
+  color: white;
+  background: #eda415;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  position: absolute;
+}
+.camera {
+  width: 331px;
+  height: 356px;
+  left: 932px;
+  margin-top: 60px;
+}
