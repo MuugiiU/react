@@ -1,13 +1,10 @@
 import Carousel from "react-bootstrap/Carousel";
-import Category from "../../data/Category";
-import Carouselpr from "../../data/Carousel";
+import Carouselpr from "./Carouselpr";
 const Banner = () => {
   return (
-    <div className="d">
-      <Carousel.Caption>
-        <Carouselpr />
-      </Carousel.Caption>
-    </div>
+    <Carousel>
+      <Carouselpr />
+    </Carousel>
   );
 };
 export default Banner;
