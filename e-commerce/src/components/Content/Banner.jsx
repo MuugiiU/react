@@ -3,9 +3,11 @@ import Category from "../../data/Category";
 import Carouselpr from "../../data/Carousel";
 const Banner = () => {
   return (
-    <Carousel.Caption>
-      <Carouselpr />
-    </Carousel.Caption>
+    <div className="d">
+      <Carousel.Caption>
+        <Carouselpr />
+      </Carousel.Caption>
+    </div>
   );
 };
 export default Banner;

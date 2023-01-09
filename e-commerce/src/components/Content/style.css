@@ -52,3 +52,7 @@ h1 {
   left: 932px;
   margin-top: 60px;
 }
+.d {
+  display: flex;
+  flex-direction: row;
+}
