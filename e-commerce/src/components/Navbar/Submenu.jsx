@@ -4,8 +4,8 @@ const Submenu = (props) => {
   const menu =
     props.children.length > 0 ? (
       <NavDropdown title={props.title}>
-        {props.children.map((child) => {
-          return <NavDropdown.Item>{child.title}</NavDropdown.Item>;
+        {props.children.map((child, index) => {
+          return <NavDropdown.Item key={index}>{child.title}</NavDropdown.Item>;
         })}
       </NavDropdown>
     ) : (

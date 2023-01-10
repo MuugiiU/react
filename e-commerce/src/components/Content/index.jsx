@@ -1,12 +1,13 @@
 import "./style.css";
 import Banner from "./Banner";
-import { Carousel } from "react-bootstrap";
-import Carouselpr from "./Carouselpr";
+import Swiperpr from "./Swiperpr";
+import Product from "./Product";
 const Content = () => {
   return (
     <div>
       <Banner />
-      <Carouselpr />
+      <Swiperpr />
+      <Product />
     </div>
   );
 };

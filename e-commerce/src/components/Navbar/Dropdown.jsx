@@ -51,8 +51,9 @@ const DropMenus = [
 const DropdownMenu = () => {
   return (
     <Nav>
-      {DropMenus.map((DropMenu) => (
+      {DropMenus.map((DropMenu, index) => (
         <Submenu
+          key={index}
           title={DropMenu.title}
           potision={DropMenu.potision}
           id={DropMenu.id}

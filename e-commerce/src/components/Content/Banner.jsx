@@ -6,7 +6,7 @@ const Banner = () => {
     <div className="App">
       <AliceCarousel autoPlay autoPlayInterval="2000">
         {Category.map((category, index) => (
-          <div className="row">
+          <div className="row" key={index}>
             <div className="col">
               <h1>{category.title}</h1>
               <button className="shar"> Shop now</button>
