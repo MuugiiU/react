@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+.user {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: greenyellow;
+  gap: 20px;
+  margin-top: 20px;
+}
