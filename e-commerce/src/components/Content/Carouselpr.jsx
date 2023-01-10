@@ -9,31 +9,31 @@ const Carouselpr = () => {
           <div className="container">
             <div className="card">
               <div className="col">
-                <img src={category.imageURL} alt="" />
+                <img src={category.imageURL} id={category.id} alt="" />
               </div>
               <div className="col">
                 <h3>{category.title}</h3>
                 <p>{category.item}</p>
               </div>
             </div>
-            <div className="card">
+            {/* <div className="card">
               <div className="col">
-                <img src={category.imageURL} alt="" />
+                <img src={category.imageURL} id={category.id} alt="" />
               </div>
               <div className="col">
                 <h3>{category.title}</h3>
                 <p>{category.item}</p>
               </div>
-            </div>
-            <div className="card">
+            </div> */}
+            {/* <div className="card">
               <div className="col">
-                <img src={category.imageURL} alt="" />
+                <img src={category.imageURL} id={category.id[4]} alt="" />
               </div>
               <div className="col">
                 <h3>{category.title}</h3>
                 <p>{category.item}</p>
               </div>
-            </div>
+            </div> */}
           </div>
         ))}
       </AliceCarousel>
