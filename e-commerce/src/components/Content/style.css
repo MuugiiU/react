@@ -46,17 +46,19 @@ h1 {
   border: 1px solid transparent;
   position: absolute;
 }
-.camera {
-  width: 331px;
-  height: 356px;
-  left: 932px;
-  margin-top: 60px;
+.row img {
+  width: 60vh;
+  margin-top: 40px;
+  margin-left: 30px;
 }
-.d {
+.card {
+  border: 1px solid #316887;
+  width: calc(100% / 3 - 10px);
+  margin: 10px;
   display: flex;
   flex-direction: row;
 }
-.slide {
+.container {
   display: flex;
-  flex-direction: row;
+  width: 100%;
 }
