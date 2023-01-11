@@ -21,9 +21,10 @@ const Popularproduct = () => {
   const SlideCount = Math.ceil(ProductsData.length / 8);
   for (let i = 0; i < SlideCount; i++) {
     <div>
-      <AliceCarousel autoPlay autoPlayInterval="2000"></AliceCarousel>
+      <AliceCarousel autoPlay autoPlayInterval="2000">
+        i * 8;
+      </AliceCarousel>
     </div>;
-    i * 8;
   }
   return <div>Popularproduct</div>;
 };
