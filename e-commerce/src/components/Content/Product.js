@@ -1,3 +1,5 @@
+import AliceCarousel from "react-alice-carousel";
+import Products from "../../data/Products";
 import ProductList from "./ProductList";
 const Product = () => {
   return (

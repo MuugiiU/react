@@ -2,7 +2,6 @@ const Category = [
   {
     id: "neg",
     imageURL: "./img/camera.png",
-    oneimageURL: "./img/pc.png",
     title: " Canon camera",
     price: "$11.70",
     rating: "3.5",
@@ -11,7 +10,6 @@ const Category = [
   {
     id: "hoyor",
     imageURL: "./img/pc.png",
-    oneimageURL: "./img/camera.png",
     title: "Desktop&laptop",
     price: "$11.70",
     rating: "4",
@@ -20,7 +18,6 @@ const Category = [
   {
     id: "gurav",
     imageURL: "./img/speaker.png",
-    oneimageURL: "./img/camera.png",
     title: "Speaker",
     price: "$11.70",
     rating: "4.3",
@@ -29,7 +26,6 @@ const Category = [
   {
     id: "duruv",
     imageURL: "./img/earphone.png",
-    oneimageURL: "./img/camera.png",
     title: "Wireless headphones",
     price: "$11.70",
     rating: "5",
@@ -38,7 +34,6 @@ const Category = [
   {
     id: "tav",
     imageURL: "./img/play.png",
-    oneimageURL: "./img/camera.png",
     title: "Play game",
     price: "$11.70",
     rating: "4",
